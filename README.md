@@ -1,18 +1,18 @@
 # My python docker image
 
 1. mkdir `python-docker`
+
 1. create a new text file in `python-docker` called `Dockerfile`
    ![Dockerfile](images/dockerfile.png)
 
-1. create a new text file in `python-docker` called `requirements.txt`
-   ![requirements.txt](images/requirements.png)
+1.
 
 ---
 
 1. add the following to the `Dockerfile`:
 
    ```dockerfile
-   FROM python:3.7-alpine #
+   FROM python:3.7-alpine
    ```
 
    Base imgage is python 3.7 alpine. It is a lightweight version of python. It is a good practice to use the latest version of python. You can find the latest version of python [here](https://hub.docker.com/_/python)
